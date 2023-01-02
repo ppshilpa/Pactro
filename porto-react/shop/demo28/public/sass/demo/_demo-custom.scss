@@ -1,0 +1,12 @@
+span.toggle {
+    &.collapsed::before {
+        content: "\e81c";
+    }   
+}
+
+.product-single-carousel {
+    img {
+        height: 100% !important;
+        object-fit: cover;
+    }
+}
